@@ -5,7 +5,21 @@
   --text-color: #F1B2CE;
   --button-color: #FF0070;
   --details-color: #FF0070;
-  --title__text-color: #000028;
-  --button__outline-color: #FF007066;
+  --title-text-color: #000028;
+  --button-outline-color: #FF007066;
   --title-large: #DB00FF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root.theme-auto {
+  --bg-image: url("../images/cover-image-dark.png");
+  --bg-color: #000044;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --button-color: #FF0070;
+  --details-color: #FF0070;
+  --title-text-color: #000028;
+  --button-outline-color: #FF007066;
+  --title-large: #DB00FF;
+}
 }
