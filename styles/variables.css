@@ -1,4 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-image: url("../images/cover-image-dark.png");
+  --bg-color: #000044;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --button-color: #FF0070; 
+  --details-color: #FF0070;
+  --font__bold: 700;
+  --font__title-mobile: 116px;
+  --font__title-tablet: 120px;
+  --font__title-desktop: 157px;
+  --title__text-color: #000028;
+  --button__outline-color: #FF007066;
+  --title-large: #DB00FF;
+}

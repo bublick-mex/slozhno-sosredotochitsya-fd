@@ -1,12 +1,15 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-image: url("../images/cover-image-light.png");
+  --bg-color: #ffeff6;
+  --accent-color: #FF8DCB;
+  --button-color: #353430;
+  --text-color: #353430;
+  --details-color: #353430;
+  --title__text-color: #353430;
+  --button__outline-color: #32312D66;
+  --title-large: #FFC2E6;
+}
+
+:root.theme-light .decorated-zone-rec {
+  display: none;
 }
