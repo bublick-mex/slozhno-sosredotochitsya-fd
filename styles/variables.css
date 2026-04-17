@@ -1,15 +1,16 @@
 :root {
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000044;
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
-  --button-color: #FF0070;
-  --details-color: #FF0070;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --button-color: #ff0070;
+  --details-color: #ff0070;
   --font-bold: 700;
   --font-title-mobile: 116px;
   --font-title-tablet: 120px;
   --font-title-desktop: 157px;
+  --title-color: #ff0070;
   --title-text-color: #000028;
-  --button-outline-color: #FF007066;
-  --title-large: #DB00FF;
+  --button-outline-color: #ff007066;
+  --title-large: #db00ff;
 }
