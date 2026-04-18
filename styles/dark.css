@@ -12,7 +12,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --bg-image: url("../images/cover-image-dark.png");
     --bg-color: #000044;
     --accent-color: #ff0070;
@@ -23,5 +23,11 @@
     --title-text-color: #000028;
     --button-outline-color: #ff007066;
     --title-large: #db00ff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root.theme-dark .decorated-zone-rec {
+    display: block;
   }
 }
